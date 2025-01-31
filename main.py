@@ -71,8 +71,6 @@ def update():
     if pause == False:
         draw_text("Paused",0,330,120,buttonColor)
 
-
-
 while not window_should_close():
     begin_drawing()
     clear_background(backgroundColor)
